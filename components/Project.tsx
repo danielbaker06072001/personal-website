@@ -6,34 +6,28 @@ import GithubButton from "./GithubButton";
 
 const projects = [
 	{
-		title: "Spotify Hit",
-		description: "Utilize Python and Spotify records to predict hit songs. Generates graphs and statistical data to support predictions.",
-		link: "https://example.com",
-		techUsed: ["Python", "Spotify API", "Machine Learning", "Pandas"],
+		title: "CICD Pipeline Automation With Monitoring",
+		description: "End-to-end CI/CD pipeline with Jenkins, Kubernetes, and Terraform for automated deployments and monitoring, completed in 6 months.",
+		link: "https://github.com/danielbaker06072001/CI-CD-Pipeline-with-Kubernetes-Monitoring",
+		techUsed: ["Kubernetes", "Jenkins", "Prometheus", "Grafana", "Docker", "SonarQube", "Terraform"],
 	},
 	{
-		title: "Weather Forecast AI",
-		description: "AI-powered weather prediction model using machine learning and climate analytics.",
-		link: "https://weather-ai.com",
-		techUsed: ["TensorFlow", "OpenWeather API", "Flask", "NumPy"],
+		title: "Authentication Services",
+		description: "Secure authentication system with hashed & salted passwords, built using Clean Architecture.",
+		link: "https://github.com/danielbaker06072001/be_authen_service",
+		techUsed: ["Golang", "Gin", "Redis", "PostgreSQL"],
 	},
 	{
-		title: "Stock Market Predictor",
-		description: "A financial tool for forecasting stock trends using AI models trained on historical data.",
-		link: "https://stockpredictor.com",
-		techUsed: ["Golang", "PostgreSQL", "FastAPI", "React"],
+		title: "Exploding Kitten",
+		description: "Multiplayer card game with real-time chat and game rooms, built using WebSockets.",
+		link: "https://github.com/danielbaker06072001/ExplodingKitten",
+		techUsed: ["React", "Node.js", "Socket.io", "MongoDB"],
 	},
 	{
-		title: "E-Commerce Recommendation Engine",
-		description: "A recommendation system using AI to suggest products based on user behavior.",
-		link: "https://ecommerce-ai.com",
-		techUsed: ["Python", "Scikit-learn", "Django", "AWS"],
-	},
-	{
-		title: "OCR Text Extractor",
-		description: "Extracts and processes text from images using AI-powered OCR technology.",
-		link: "https://ocr-text-extractor.com",
-		techUsed: ["Tesseract OCR", "OpenCV", "FastAPI", "React"],
+		title: "Image Processing and Recognition",
+		description: "Perform multiple image processing and recognition technique.",
+		link: "https://github.com/danielbaker06072001/cp476_project",
+		techUsed: ["Python", "OpenCV", "TensorFlow"],
 	},
 ];
 
