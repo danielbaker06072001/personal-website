@@ -35,7 +35,7 @@ export default function MyLife() {
             </div>
 
             {/* Connector Dot (Timeline Point) - Fixed Position */}
-            <div className="w-6 h-6 bg-yellow-400 rounded-full absolute top-[140px]"></div>
+            <div className="w-6 h-6 bg-yellow-400 rounded-full absolute top-[125px]"></div>
 
             {/* Year Label with Duck Below */}
             <div className="flex flex-col items-center mt-6">
