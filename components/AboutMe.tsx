@@ -18,11 +18,11 @@ export default function AboutMe() {
       <p className="text-xl md:text-3xl lg:text-4xl tracking-tight mb-10">through scalable and quality software</p>
       <div className="space-y-2">
         <p className="text-sm font-thin md:text-base lg:text-lg">
-          I'm a big <span className="font-bold">rock climbing</span> enthusiast.
-        </p>
-        <p className="text-sm font-thin max-w-2xl md:text-base lg:text-lg leading-6 md:leading-7 lg:leading-8">
-          When I'm not spending time with my family or at my computer, you’ll find me in the woods climbing rocks or hiking with my friend. Also, I abide myself by the concept of <span className="font-bold">continuous improvement and learning</span>.
-        </p>
+		  I&apos;m a big <span className="font-bold">rock climbing</span> enthusiast.
+		</p>
+		<p className="text-sm font-thin max-w-2xl md:text-base lg:text-lg leading-6 md:leading-7 lg:leading-8">
+		  When I&apos;m not spending time with my family or at my computer, you&apos;ll find me in the woods climbing rocks or hiking with my friend. Also, I abide myself by the concept of <span className="font-bold">continuous improvement and learning</span>.
+		</p>
       </div>
 			<div className="mt-10 space-y-5">
 				<div>
