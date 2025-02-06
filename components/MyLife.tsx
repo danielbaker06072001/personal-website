@@ -15,7 +15,7 @@ export default function MyLife() {
   return (
     <section id="mylife" className="relative flex flex-col items-center w-full min-h-[100vh] py-24 mx-auto overflow-hidden">
       {/* Section Title */}
-      <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-500 text-4xl md:text-6xl font-bold mb-12">
+      <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-500 text-4xl md:text-6xl font-bold mb-12 pb-2 whitespace-nowrap">
         Ducky's Life Timeline
       </h2>
 
