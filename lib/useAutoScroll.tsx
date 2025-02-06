@@ -10,14 +10,12 @@ export default function useAutoScrollSections(sectionIds: string[]) {
       const sections = sectionIds.map((id) => document.getElementById(id));
       if (!sections.length) return;
 
-      const scrollY = window.scrollY;
       const windowHeight = window.innerHeight;
       const threshold = 0.5; // 50% of the section should be visible
 
       sections.forEach((section, index) => {
         if (section) {
           const { top, bottom } = section.getBoundingClientRect();
-          const sectionHeight = bottom - top;
 
           // Check if the section is at least 50% visible
           if (top < windowHeight * threshold && bottom > windowHeight * (1 - threshold)) {

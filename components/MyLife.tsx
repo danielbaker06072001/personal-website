@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react"; // ArrowRight for scroll hint
 
 const timelineEvents = [
@@ -16,7 +15,7 @@ export default function MyLife() {
     <section id="mylife" className="relative flex flex-col items-center w-full min-h-[100vh] py-24 mx-auto overflow-hidden">
       {/* Section Title */}
       <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-500 text-4xl md:text-6xl font-bold mb-12 pb-2 whitespace-nowrap">
-        Ducky's Life Timeline
+        Ducky&#39;s Life Timeline
       </h2>
 
       {/* Timeline Container */}

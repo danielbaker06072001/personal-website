@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import Ellipse from "@/assets/Earth.png";
 import Duck from "@/assets/duck.svg";

@@ -23,7 +23,7 @@ export default function Introduction() {
             </h1>
 
 			<p className="text-sm lg:text-lg md:text-base sm:text-sm pb-1">Software Engineer - DevOps Engineer</p>
-			<p className="text-sm lg:text-lg md:text-base sm:text-sm pb-8">HCM [ N 10° 44' 18.7836 E 106° 43' 40.242 ] is my origin.</p>
+			<p className="text-sm lg:text-lg md:text-base sm:text-sm pb-8">HCM [ N 10° 44&#39; 18.7836 E 106° 43&#39; 40.242 ] is my origin.</p>
 			<ViewResumeButton />
 			<Image
 				src={Ellipse}

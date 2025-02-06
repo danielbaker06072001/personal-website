@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { ThemeProvider } from "./theme-provider";
 import { Roboto_Mono } from "next/font/google";
 import DuckCursor from "@/components/DuckCursor";
 import Snowfall from "@/lib/useSnow";
