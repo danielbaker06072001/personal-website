@@ -99,7 +99,7 @@ export default function Skill() {
 			</div>
 
 			{/* Footer */}
-			<div className="absolute bottom-6 bg-gray-800/80 px-6 py-2 text-gray-300 text-sm rounded-md">
+			<div className=" bg-gray-800/80 px-6 py-2 text-gray-300 text-sm rounded-md">
 				SYSTEM.OUT.PRINTLN("GOODBYE");
 			</div>
 
