@@ -12,8 +12,8 @@ export default function ProjectCard({ title, description, link, techUsed }: Proj
   return (
     <div className="bg-white/10 backdrop-blur-lg shadow-lg border border-white/20 
                     mx-auto relative flex flex-col justify-between 
-                    w-[290px] h-[290px] sm:w-[340px] sm:h-[340px] md:w-[390px] md:h-[390px] lg:w-[440px] lg:h-[440px] 
-                    p-5 md:p-7 rounded-2xl transition-transform duration-300 hover:scale-105 z-10">
+                    w-full max-w-[290px] sm:max-w-[340px] md:max-w-[390px] lg:max-w-[440px] 
+                    h-auto p-5 md:p-7 rounded-2xl transition-transform duration-300 hover:scale-105 z-10">
       {/* Browser Icons */}
       <div className="absolute top-3 left-4 flex space-x-2">
         <span className="w-3 h-3 bg-red-500 rounded-full"></span>

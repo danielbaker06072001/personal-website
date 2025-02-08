@@ -14,21 +14,21 @@ export default function MyLife() {
   return (
     <section id="mylife" className="relative flex flex-col items-center w-full min-h-[100vh] py-24 mx-auto overflow-hidden">
       {/* Section Title */}
-      <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-500 text-4xl md:text-6xl font-bold mb-12 pb-2 whitespace-nowrap">
+      <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-500 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-8 sm:mb-10 md:mb-12 pb-2 whitespace-nowrap text-center">
         Ducky&#39;s Life Timeline
       </h2>
 
       {/* Timeline Container */}
-      <div className="relative flex items-center justify-start w-full overflow-x-auto px-6 gap-20 scrollbar-custom min-h-[300px] max-w-[85vw]">
+      <div className="relative flex items-center justify-start w-full overflow-x-auto px-6 gap-8 md:gap-20 scrollbar-custom min-h-[300px] max-w-[85vw]">
         {/* Persistent Timeline Line */}
-        <div className="absolute top-[150px] left-0 w-[145vw] border-t-2 border-gray-400/50"></div>
+        <div className="absolute top-[150px] left-0 w-[200vw] md:w-[145vw] border-t-2 border-gray-400/50"></div>
 
         {timelineEvents.map((event, index) => (
-          <div key={index} className="relative flex flex-col items-center w-64 mx-16">
+          <div key={index} className="relative flex flex-col items-center w-48 md:w-64 mx-8 md:mx-16">
             {/* Keep consistent height for all text bubbles */}
             <div className="relative flex flex-col items-center min-h-[160px]">
               {/* Event Description Above */}
-              <div className="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-xl shadow-md w-64 text-white text-center min-h-[90px] flex items-center justify-center">
+              <div className="bg-white/10 backdrop-blur-md border border-white/20 p-4 md:p-6 rounded-xl shadow-md w-48 md:w-64 text-white text-center min-h-[90px] flex items-center justify-center">
                 {event.text}
               </div>
             </div>

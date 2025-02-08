@@ -44,21 +44,21 @@ export default function Project() {
 			<span className="text-transparent bg-clip-text bg-gradient-to-r mt-10 p-2 from-[#1D4ED8] to-[#5AD7FE] font-mono text-sm uppercase tracking-wide border border-neutral-800 rounded-sm opacity-75 w-[140px] text-center font-light ">
 				# PROJECTS
 			</span>
-			<div className="min-h-screen p-6">
+			<div className="w-full p-6">
 				{/* Filter Buttons */}
-				<div className="flex space-x-4 mb-6">
+				<div className="flex flex-wrap justify-center space-x-2 mb-6">
 					{techs.map((tech) => (
 						<button
 							key={tech}
 							onClick={() => setFilter(tech === filter ? null : tech)}
-							className={`z-10 px-4 py-2 rounded-lg ${filter === tech ? "bg-blue-500 text-white" : "bg-gray-700 text-gray-300"}`}>
+							className={`z-10 px-4 py-2 m-1 rounded-lg ${filter === tech ? "bg-blue-500 text-white" : "bg-gray-700 text-gray-300"}`}>
 							{tech}
 						</button>
 					))}
 				</div>
 
 				{/* Project Grid */}
-				<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+				<div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 					{filteredProjects.map((project, index) => (
 						<ProjectCard
 							key={index}

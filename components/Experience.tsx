@@ -33,12 +33,12 @@ const experiences = [
       <div className="absolute inset-0 bg-grid-blue opacity-20 pointer-events-none"></div>
 
       {/* Section Title */}
-      <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 text-5xl md:text-7xl font-bold mb-14 tracking-wider">
+      <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-10 sm:mb-12 md:mb-14 tracking-wider text-center">
         Work Experience
       </h2>
 
       {/* Experience Cards */}
-      <div className="w-full max-w-5xl space-y-12 z-10">
+      <div className="w-full max-w-5xl space-y-12 z-10 px-4 sm:px-6 lg:px-8">
         {experiences.map((exp, index) => (
           <div
             key={index}
@@ -47,8 +47,8 @@ const experiences = [
             {/* Glowing Edge Effect */}
             <div className="absolute inset-0 opacity-20 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-lg blur-md pointer-events-none"></div>
 
-            <div className="flex justify-between items-center">
-              <div>
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
+              <div className="mb-4 md:mb-0">
                 <h3 className="text-2xl md:text-3xl font-semibold text-white">{exp.title}</h3>
                 <p className="text-lg text-cyan-400">{exp.company} | {exp.duration}</p>
               </div>
