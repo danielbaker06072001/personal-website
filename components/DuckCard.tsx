@@ -25,7 +25,7 @@ export default function DuckCard({ duck }: DuckCardProps) {
       </div>
       
       <div className="text-[#5D4037] text-sm p-2 border-b-2 border-[#A3C34F] italic">
-        "{duck.description}"
+        &quot;{duck.description}&quot;
       </div>
       
       <div className="flex justify-between p-2 text-[#3E2723]">

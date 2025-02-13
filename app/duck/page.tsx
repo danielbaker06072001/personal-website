@@ -15,7 +15,7 @@ const ducks = [
   { id: 2, name: "GrindQuack", description: "I push myself to kepe learning and improving even it means sleepy.", image: phe, rarity: 3, health: 4 },
   { id: 3, name: "WanderWings", description: "I have a rentless spirit and passion for discovering new things.", image: explore, rarity: 1, health: 6 },
   { id: 4, name: "PoutyPlume", description: "I might seem relaxed, but I have a lot in my mind.", image: angry, rarity: 5, health: 2 },
-  { id: 5, name: "FrostFeather", description: "I love the idea of winter, but I can't handle cold.", image: cold, rarity: 4, health: 3 },
+  { id: 5, name: "FrostFeather", description: "I love the idea of winter, but I can&apos;t handle cold.", image: cold, rarity: 4, health: 3 },
   { id: 6, name: "TenderQuack", description: "I deeply understand and care about others, I pickup on emotions easily.", image: cry, rarity: 6, health: 3 },
 ];
 
