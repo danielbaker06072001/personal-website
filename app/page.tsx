@@ -7,6 +7,7 @@ import useAutoScrollSections from '@/lib/useAutoScroll';
 import MyLife from '@/components/MyLife';
 import Skill from '@/components/Skill';
 import WorkExperience from '@/components/Experience';
+import DuckButton from '@/components/DuckButton';
 export default function Home() {
   const sectionIds = ["intro", "about-me", "work-experience", "project", "mylife", "skills"]; // List of section IDs
   useAutoScrollSections(sectionIds);
@@ -18,6 +19,7 @@ export default function Home() {
       <Project/>
       <MyLife/>
       <Skill/>
+      <DuckButton/>
     </div>
   );
 }
