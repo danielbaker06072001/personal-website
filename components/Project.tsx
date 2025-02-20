@@ -6,6 +6,18 @@ import GithubButton from "./GithubButton";
 
 const projects = [
 	{
+		title: "MicroInsure",
+		description: "Golang based microservices Insurance portal application, featuring a scalable distributed and high performance concurrentcy.",
+		link: "https://github.com/danielbaker06072001/MicroInsure",
+		techUsed: ["Consul", "Kong Gateway", "Golang", "RabbitMQ", "PostgreSQL", "Docker", "Redis"],
+	},
+	{
+		title: "GoClusterFS",
+		description: "Distributed file system built in golang, demonstrate networking.",
+		link: "https://github.com/danielbaker06072001/GoClusterFS",
+		techUsed: ["Golang", "net"],
+	},
+	{
 		title: "CICD Pipeline Automation With Monitoring",
 		description: "End-to-end CI/CD pipeline with Jenkins, Kubernetes, and Terraform for automated deployments and monitoring, completed in 6 months.",
 		link: "https://github.com/danielbaker06072001/CI-CD-Pipeline-with-Kubernetes-Monitoring",
